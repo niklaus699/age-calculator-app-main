@@ -23,17 +23,8 @@
     src: url(./assets/fonts/Poppins-Regular.ttf);
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 body {
-    background-color: darkgray;
+    background-color: lightslategrey;
 }
 
 .entire {
@@ -58,7 +49,6 @@ body {
 }
 
 .day-box {
-    position: fixed;
     border-radius: 5px;
     font-family: poppinsBold;
     width: 50px;
@@ -71,6 +61,11 @@ body {
 .icon-arrow {
     background-color: blueviolet;
     border-radius: 30px;
+}
+
+.icon-arrow:hover {
+    background-color: black;
+    cursor: pointer;
 }
 
 .matters-container {
@@ -96,4 +91,10 @@ body {
     font-family: poppinsRegular;
     color: gray;
     font-size: small;
+}
+
+@media (max-width: 768px) {
+    .entire {
+        width: 300px;
+    }
 }
