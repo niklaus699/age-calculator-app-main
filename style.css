@@ -95,7 +95,7 @@ body {
 
 @media (max-width: 768px) {
     .entire {
-        width: 220px;
+        width: 280px;
     }
     .icon-arrow {
         justify-self: right;
