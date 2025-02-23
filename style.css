@@ -94,6 +94,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        height: fit-content;
+    }
     .entire {
         width: 280px;
     }
