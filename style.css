@@ -95,7 +95,7 @@ body {
 
 @media (max-width: 768px) {
     body {
-        height: fit-content;
+        overflow: hidden;
     }
     .entire {
         width: 280px;
