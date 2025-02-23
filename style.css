@@ -1,0 +1,99 @@
+@font-face {
+    font-family: poppinsBoldItalic;
+    src: url(./assets/fonts/Poppins-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: poppinsBold;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppinsExtraBold;
+    src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: poppinsItalic;
+    src: url(./assets/fonts/Poppins-Italic.ttf);
+}
+
+@font-face {
+    font-family: poppinsRegular;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: darkgray;
+}
+
+.entire {
+    margin-top: 4rem;
+    padding: 2rem;
+    justify-self: center;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    padding-top: 40px;
+}
+
+.input-template {
+    display: grid;
+}
+
+.day-box {
+    position: fixed;
+    border-radius: 5px;
+    font-family: poppinsBold;
+    width: 50px;
+}
+
+.icon-container {
+    justify-self: right;
+}
+
+.icon-arrow {
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+
+.matters-container {
+    display: block;
+    justify-self: center;
+}
+
+.matters {
+    font-family: poppinsBoldItalic;
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+}
+
+.real-matters {
+    color: blueviolet;
+    font-family: poppinsBoldItalic;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.dayText {
+    font-family: poppinsRegular;
+    color: gray;
+    font-size: small;
+}
